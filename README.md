@@ -1,16 +1,29 @@
-# React + Vite
+# Portfolio React John Doe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Ce projet correspond à la réalisation d’un portfolio développé avec React, à partir d’une maquette imposée.
+Il présente plusieurs pages : accueil, services, portfolio, contact et mentions légales.
 
-Currently, two official plugins are available:
+## Prérequis
+Avant de lancer ce projet, il est nécessaire d’avoir installé :
+- Node.js
+- npm
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+Clonez le dépôt puis installez les dépendances avec la commande suivante :
 
-## React Compiler
+    npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Lancement du projet
+Pour démarrer le serveur de développement, utilisez la commande suivante :
 
-## Expanding the ESLint configuration
+    npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies utilisées
+- React
+- Vite
+- Bootstrap
+- React Icons
+
+## Validations W3C
+Les captures d’écran des validations W3C sont disponibles dans le dossier `screenshots`.
